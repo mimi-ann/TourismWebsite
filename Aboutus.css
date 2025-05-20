@@ -1,0 +1,34 @@
+.topnav{background-color: #333;overflow:hidden;}
+.topnav a {float:fixed;
+color:#f2f2f2;
+text-align:center;
+padding:14px 16px;
+font-size:17px;
+font-weight: bold;
+text-align: right}
+
+.topnav a:hover{background-color:#ddd;
+color: black;}
+
+
+nav{position:fixed;
+width:100%;
+height:100px;
+line-height:100px;
+text-decoration:none;
+text-align: right
+}
+
+h1{font-style:Georgia;font-size:60px;color:white;text-align:center}
+
+h2{font-style:Georgia;font-size:25px;color:white;}
+
+h3{font-style:Georgia;font-size:25px;color:white;}
+
+li{font-style:Georgia;font-size:25px;color:white;}
+
+ol{font-style:Georgia;font-size:15px;color:white;}
+
+img.A {height:150;width:150;display:block;margin-left:auto; margin-right:auto;}
+
+	p {font-style:Georgia;font-size:25px;color:white;}

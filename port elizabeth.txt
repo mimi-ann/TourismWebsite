@@ -1,0 +1,195 @@
+
+
+
+
+
+
+HTML
+
+<doctype html>
+
+<html>
+
+<head>
+
+<title> tourism </title> 
+<link rel="stylesheet"  href="Style.css"> 
+<style>
+body{background-image:url('PE picture1.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<div class="main">
+
+<ul>
+<a class="active" href="#Breathtaking scenery">Scenery</a></li>
+<a href="#Adventures">Adventures</a></li>
+<a href="#"></a></li>
+</ul>
+</nav>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1 style="color:white;" >Welcome to Port Elizabeth</h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="color:white;font-size: 45px">Port Elizabeth is a popular domestic and International holiday destination</p>
+<div class="button">
+</div>
+<p>INTRODUCTION</p>
+<p style="color:white;font-size: 18px">Port Elizabeth is a city on Algoa Bay in South Africa's Eastern Cape Province. A major port, it's also known for its numerous beaches. The Donkin Heritage Trail takes in the Old Hill neighbourhood's Victorian landmarks. Coastal boat tours spot whales and rare seabirds, while wildlife reserves outside the metropolitan area are home to elephants, rhinos and other big game.</p>
+<br>
+
+<h1 id="Breathtaking scenery">Breathtaking scenery</h1>
+<h2 style= "color:Blue"> 1.Beaches</h2>
+<img src="https://www.planetware.com/photos-large/SAF/south-africa-port-elizabeth-beaches.jpg">
+<p style="color:white;font-size: 18px" >
+On the Eastern Cape, Port Elizabeth, called "PE" by the locals, is South Africa's third largest port, with some of the country's cleanest city beaches. With more than 40 kilometers of coastline lapped by the clear waters of beautiful Algoa Bay, water sports run the gamut here, from surfing, sailing, swimming, and fishing to windsurfing, kiteboarding, and scuba diving. Travelers who prefer to stay dry can hop aboard a harbor cruise with the chance to spot whales such as humpbacks, Southern right whales, and Bryde's whales, depending on the time of year.
+</p>
+
+
+
+<br>
+<h2 style= "color:Blue"> 2.The Boardwalk</h2>
+<img src = "https://www.planetware.com/photos-large/SAF/south-africa-port-elizabeth-the-boardwalk.jpg">
+<p style="color:white;font-size: 18px">In Summerstrand, a 12-minute walk from the beach, The Boardwalk is a slickly packaged leisure resort and convention center on an artificial lake. Tourists and locals come here to browse the boutiques and specialty stores, dine at the restaurants and cafes, and enjoy the entertainment venues, which include a five-screen cinema, an amphitheater hosting live shows, an amusement arcade, bowling alley, and adventure golf. The fitness center features two pools, and those seeking a little pampering can relax at the full-service spa.
+
+At night, the complex comes alive with a musical fountain show. More than 100 individual jets shoot water up to 60 meters into the air, illuminated by colorful lights, and a screen of water displays multimedia presentations. Adults and children of all ages will find something fun to see and do here, and it's a great alternative to the beach on wet weather days.
+
+Address: Beach Road Summerstrand 6019, Port Elizabeth
+</p>
+Official site:<link> http://www.suninternational.com/boardwalk/</link> </p>
+<br>
+<br>
+<h1 id="Adventures">Adventures</h1>
+<ol>
+<li><h2> -Rock climbing</h2></li>
+<img src="https://www.nightjartravel.com/sites/default/files/169%20Rock%20climbing/Table%20MountainJacobs%20ladder%20image%20Shaen%20Adey%202313.jpg">
+<p style="color:white;font-size: 18px"> The Eastern Cape offers a variety of different rock with lots of potential for new route development. The climbing venues are scattered broadly over the entire Eastern Cape. There are nearly 800 sport routes, hundreds of trad lines & a few bouldering areas. There are a few indoor bouldering venues. The largest is at Rhodes University. The climbing community is fairly small, but quite active & welcoming.
+</p>
+<br>
+<h2 style= "color:Blue"> 3.Food</h2>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSWSKG-8bIR9S7VmxvqfO7y8z0OJaUVXiS-6w&usqp=CAU">
+<p style="color:white;font-size: 18px">Nothing beats dining out like ordering seafood at a fun joint by the sea. South Africa’s Port Elizabeth is teeming with delectable places serving up the freshest fare brought in from the local waters. Before planning your trip to this beloved city, you’ll want to do your research and make reservations at some of the area’s top seafood restaurants. From places with calamari delights, to refreshing oysters, to colorful fish, here are the top seafood restaurants of Port Elizabeth you’ll want to check out.</p>
+
+
+</ol>
+
+<div class="input-group">
+
+</div>
+</section>
+
+</header>
+
+
+</body>
+
+</html>
+
+
+
+CSS
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	
+}
+
+header{
+		background-image: url("https://www.southafricavisa.com/wp-content/uploads/sites/30/2020/02/port-elizabeth-south-africa.jpg");
+		height: 100vh;
+		background-size: cover;
+		background-position: center;
+		background-attachment: float;
+		
+	h1{
+		text-align: Centre;
+	}
+	ul{
+		float: right;
+		list-style-type: none;
+		margin-top: 25px;
+	}
+	
+	ul li{
+		display:inline-block;
+	}
+	
+	ul li a{
+		text-decoration: none;
+		color: #fff;
+		padding: 5px 20px;
+		border: 1px solid #transparent;
+		transition: 0.6s ease;
+	}
+
+	ul li a:hover{
+		background-color: #fff;
+		color: #000;
+	}
+	
+	ul li.active a{
+		background-color: #fff;
+		color: #000;
+	}
+		
+		
+	
+	h1  {
+		text-align: Center;
+		font-family: Cavolini;
+	Font-size: 60px;
+	}
+img{
+	width: 25% ;
+	height: 10%;
+	float: right;
+}
+
+p{color:white;
+font-size:18px}
+
+.main{background-color: #333;
+overflow:hidden;}
+.main a{float:fixed;
+color:#f2f2f2;
+text-align:center;
+padding:14xp 16xp;
+font-size:17xp;
+}
+	
+	
+
+
+
+
