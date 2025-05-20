@@ -1,0 +1,80 @@
+{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	
+}
+
+header{
+		background-image: url("https://www.southafricavisa.com/wp-content/uploads/sites/30/2020/02/port-elizabeth-south-africa.jpg");
+		height: 100vh;
+		background-size: cover;
+		background-position: center;
+		background-attachment: float;
+}
+		
+	h1{
+		text-align: Centre;
+	}
+	ul{
+		float: right;
+		list-style-type: none;
+		margin-top: 25px;
+	}
+	
+	ul li{
+		display:inline-block;
+	}
+	
+	ul li a{
+		text-decoration: none;
+		color: #fff;
+		padding: 5px 20px;
+		border: 1px solid #transparent;
+		transition: 0.6s ease;
+	}
+
+
+		
+		
+	
+	h1  {
+		text-align: Center;
+		font-family: Cavolini;
+	Font-size: 60px;
+	}
+
+}
+
+
+p{color:white;
+font-size:18px}
+
+
+	
+.topnav{background-color: #333;overflow:hidden;}
+.topnav a {float:fixed;
+color:#f2f2f2;
+text-align:center;
+padding:14px 16px;
+font-size:17px;}
+
+.topnav a:hover{background-color:#ddd;
+color: black;}
+
+
+nav{position:fixed;
+width:100%;
+height:100px;
+line-height:100px;
+font-size:17px;
+font-weight: bold;
+text-align: right
+}
+
+
+
+img.I{height:45%;width:45%}
+li{font-size: 20px;color:white}
+h2{font-size: 35px;color:white}
+	p{font-size: 20px;color:white}
